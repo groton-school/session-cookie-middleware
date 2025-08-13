@@ -1,0 +1,30 @@
+{
+  "name": "groton-school/session-cookie-middleware",
+  "description": "Implementation of PSR-15 middleware to manage session cookies with CHIPS partition support",
+  "version": "0.0.0",
+  "authors": [
+    {
+      "name": "Seth Battis",
+      "email": "sbattis@groton.org"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/battis/dflydev-fig-cookies.git"
+    }
+  ],
+  "require": {
+    "psr/http-message": "2.0.x-dev",
+    "dflydev/fig-cookies": "dev-feat/chips",
+    "odan/session": "dev-master"
+  },
+  "license": "GPL-3.0",
+  "autoload": {
+    "psr-4": {
+      "GrotonSchool\\Session\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
