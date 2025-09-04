@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4c0b58f708b3a62d8320d6ac3a69238",
+    "content-hash": "b600a9ac2c640038f3d4092aaf8260e9",
     "packages": [
         {
             "name": "dflydev/fig-cookies",
-            "version": "dev-feat/chips",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/battis/dflydev-fig-cookies.git",
-                "reference": "7d39ae55c8a7907bed25772635b7bc0d569a69bd"
+                "url": "https://github.com/dflydev/dflydev-fig-cookies.git",
+                "reference": "f9c63878e75483800477db4f897237b36556617b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/battis/dflydev-fig-cookies/zipball/7d39ae55c8a7907bed25772635b7bc0d569a69bd",
-                "reference": "7d39ae55c8a7907bed25772635b7bc0d569a69bd",
+                "url": "https://api.github.com/repos/dflydev/dflydev-fig-cookies/zipball/f9c63878e75483800477db4f897237b36556617b",
+                "reference": "f9c63878e75483800477db4f897237b36556617b",
                 "shasum": ""
             },
             "require": {
@@ -46,11 +46,7 @@
                     "Dflydev\\FigCookies\\": "src/Dflydev/FigCookies"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Dflydev\\FigCookies\\": "tests/Dflydev/FigCookies"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -67,22 +63,23 @@
                 "psr7"
             ],
             "support": {
-                "source": "https://github.com/battis/dflydev-fig-cookies/tree/feat/chips"
+                "issues": "https://github.com/dflydev/dflydev-fig-cookies/issues",
+                "source": "https://github.com/dflydev/dflydev-fig-cookies/tree/v3.2.0"
             },
-            "time": "2025-08-13T12:17:06+00:00"
+            "time": "2025-09-03T20:01:04+00:00"
         },
         {
             "name": "odan/session",
-            "version": "dev-master",
+            "version": "6.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/odan/session.git",
-                "reference": "3c88a1f3d99d24c54f73e7717c64f0edc0d4f260"
+                "reference": "fcd39d49f50d7809bb021c1189b755b19a5a55e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/odan/session/zipball/3c88a1f3d99d24c54f73e7717c64f0edc0d4f260",
-                "reference": "3c88a1f3d99d24c54f73e7717c64f0edc0d4f260",
+                "url": "https://api.github.com/repos/odan/session/zipball/fcd39d49f50d7809bb021c1189b755b19a5a55e9",
+                "reference": "fcd39d49f50d7809bb021c1189b755b19a5a55e9",
                 "shasum": ""
             },
             "require": {
@@ -93,13 +90,12 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3",
-                "middlewares/utils": "^3",
+                "middlewares/utils": "^3 || ^4",
                 "nyholm/psr7": "^1.5",
                 "phpstan/phpstan": "^2",
                 "phpunit/phpunit": "^11",
                 "squizlabs/php_codesniffer": "^3"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -118,13 +114,13 @@
             ],
             "support": {
                 "issues": "https://github.com/odan/session/issues",
-                "source": "https://github.com/odan/session/tree/6.4.0"
+                "source": "https://github.com/odan/session/tree/6.4.1"
             },
-            "time": "2025-07-29T20:24:31+00:00"
+            "time": "2025-07-29T20:20:33+00:00"
         },
         {
             "name": "psr/http-message",
-            "version": "dev-master",
+            "version": "2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
@@ -139,7 +135,6 @@
             "require": {
                 "php": "^7.2 || ^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -293,11 +288,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "dflydev/fig-cookies": 20,
-        "odan/session": 20,
-        "psr/http-message": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {},

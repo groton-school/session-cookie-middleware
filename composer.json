@@ -8,16 +8,10 @@
       "email": "sbattis@groton.org"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/battis/dflydev-fig-cookies.git"
-    }
-  ],
   "require": {
-    "psr/http-message": "2.0.x-dev",
-    "dflydev/fig-cookies": "dev-feat/chips",
-    "odan/session": "dev-master"
+    "psr/http-message": "^2.0",
+    "dflydev/fig-cookies": "^3.2",
+    "odan/session": "^6.4"
   },
   "license": "GPL-3.0",
   "autoload": {
